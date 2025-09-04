@@ -53,9 +53,8 @@ Initial segmentation loss: ~65% → reduced to ~20%
 
 Final Accuracy: 85% Precision, 84% Recall, mAP50 = 0.88 
 
-## 📷 Demo
+## 📷 Interface
 
-### Detection Example:
-![interfce](C:\Users\hp\OneDrive\Desktop\fyp app\interface image.png)
+
 
 
