@@ -37,7 +37,7 @@ Streamlit
 
 Annotated with Roboflow under expert supervision
 
-Augmentation expanded dataset to 70,230 images
+Augmentation expanded dataset to 7,230 images
 
 Augmentations: rotation, shear, brightness, exposure, noise
 
