@@ -55,7 +55,7 @@ Final Accuracy: 85% Precision, 84% Recall, mAP50 = 0.88
 
 ## 📷 Interface
 
-![image alt]![)
+![image alt]![https://github.com/khannoman12/Brain-Tumor-Detection-And-Area-Calculation/blob/1c2aeac052ba0c1bf748d9c7e6d44399bc0c9e10/interface.png)
 
 
 
