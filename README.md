@@ -18,15 +18,6 @@ Real-time inference via Streamlit web app
 
 Model exportable to ONNX for deployment
 
-# 📂 Project Structure
-├── src/
-│   ├── app.py        # Streamlit app
-│   ├── train.py      # Training code
-├── notebooks/        # Experiment notebooks
-├── models/           # YOLO weights (best.pt, best.onnx)
-├── requirements.txt  # Dependencies
-└── README.md         # Documentation
-
 # 🛠️ Tech Stack
 Python (3.10)
 
@@ -39,4 +30,32 @@ OpenCV
 NumPy / Pandas
 
 Streamlit
+
+#📊 Dataset
+
+3,068 MRI brain images collected from HMC, Peshawar
+
+Annotated with Roboflow under expert supervision
+
+Augmentation expanded dataset to 70,230 images
+
+Augmentations: rotation, shear, brightness, exposure, noise
+
+# 📈 Training Details
+
+Platform: Kaggle Free GPU (12-hour limit)
+
+Epochs: 100 (~10h 45m)
+
+Optimizer: SGD
+
+Initial segmentation loss: ~65% → reduced to ~20%
+
+Final Accuracy: 85% Precision, 84% Recall, mAP50 = 0.88 
+
+## 📷 Demo
+
+### Detection Example:
+![interfce](C:\Users\hp\OneDrive\Desktop\fyp app\interface image.png)
+
 
